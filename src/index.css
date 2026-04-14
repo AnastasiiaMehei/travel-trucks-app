@@ -1,0 +1,107 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+ 
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --main: #101828;
+  --text: #475467;
+  --white: #fff;
+  --inputs: #f7f7f7;
+  --badges: #f2f4f7;
+  --gray: #6c717b;
+  --gray-light: #dadde1;
+  --button: #f06292;
+  --button-hover: #ec407a;
+
+
+  --rating: #ffc531;
+
+}
+
+/* Reset styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  height: auto;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  box-shadow: none;
+}
+
+input {
+  outline: none;
+}
+
+/* common styles */
+
+body {
+  line-height: 1.5;
+  width: 320px;
+  color: var(--main);
+    margin-top: 0px;
+}
+
+
+@media screen and (min-width: 768px) {
+  body {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    width: 1440px;
+  }
+}
+
+
+input {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--gray);
+}
+
+input:focus { 
+  color: var(--main);
+}
